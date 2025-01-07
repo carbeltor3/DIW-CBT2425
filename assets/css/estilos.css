@@ -400,12 +400,15 @@ footer {
 }
 #servicios tr:first-child{
   background-color: cadetblue;
+  color:#0A3003
 }
 #servicios tr:nth-child(odd):not(:first-child){
   background-color: brown;
+  color:#C3E5BD;
 }
 #servicios tr:nth-child(even){
   background-color: burlywood;
+  color:#0A3003
 }
 #ervicios th{
   display: table-column;
@@ -639,12 +642,15 @@ footer {
 }
 #servicios tr:first-child{
   background-color: cadetblue;
+  color:#0A3003
 }
 #servicios tr:nth-child(odd):not(:first-child){
   background-color: brown;
+  color:#C3E5BD;
 }
 #servicios tr:nth-child(even){
   background-color: burlywood;
+  color:#0A3003
 }
 #ervicios th{
   display: table-column;
