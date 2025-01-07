@@ -88,7 +88,7 @@ section {
 }
 
 img:not([alt]){
-  border: 3px solid red;
+  border: 3px solid #FFEAEA;
 }
 
 a[href$=".pdf"]::after{
@@ -227,7 +227,7 @@ footer {
 }
 
 a:link{
-  color: blue;
+  color: #D0EBFF;
 }
 
 a:visited{
@@ -235,11 +235,11 @@ a:visited{
 }
 
 a:hover{
-  color:red
+  color:#FFEAEA
 }
 
 a:active{
-  color: green;
+  color: #E5FFE5;
 }
 
 /*estilos para tabletas (700px a 1199px)*/
@@ -328,7 +328,7 @@ section {
 }
 
 img:not([alt]){
-  border: 3px solid red;
+  border: 3px solid #FFEAEA;
 }
 
 a[href$=".pdf"]::after{
@@ -468,7 +468,7 @@ footer {
 } 
 
 a:link{
-  color: blue;
+  color: #D0EBFF;
 }
 
 a:visited{
@@ -476,11 +476,11 @@ a:visited{
 }
 
 a:hover{
-  color:red
+  color:#FFEAEA
 }
 
 a:active{
-  color: green;
+  color: #E5FFE5;
 }
 }
 
@@ -567,7 +567,7 @@ section {
 }
 
 img:not([alt]){
-  border: 3px solid red;
+  border: 3px solid #FFEAEA;
 }
 
 a[href$=".pdf"]::after{
