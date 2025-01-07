@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Descripcion"
+      content="contiene información de contacto de la web"
+    />
+    <meta name="keywords" content="musica,discos,instrumentos,piano>" />
+    <meta name="author" content="CBT2425" />
+    <meta name="copyright" content="2024,CBT" />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./assets/images/logo.png"
+    />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img id="logo" src="./assets/images/logo.png" alt="logo Musica DIW"
+      /></a>
+      <h1>MUSICA DIW</h1>
+    </header>
+    <nav>
+      <ul id="navegacion">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Formulario de contacto</h2>
+      <form action="#">
+        <table>
+          <tr>
+            <td class="descripcion">Nombre:</td>
+            <td class="inputs">
+              <input
+                size="50"
+                type="text"
+                id="nombre"
+                placeholder="Escriba su nombre y apellidos solo letras y numero"
+                maxlength="40"
+                pattern="[a-z]{1,9}"
+                required
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="descripcion">Email:</td>
+            <td class="inputs">
+              <input
+                size="50"
+                type="email"
+                id="email"
+                placeholder="Escriba su email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="descripcion">Edad:</td>
+            <td class="inputs">
+              <input
+                type="number"
+                min="18"
+                max="99"
+                value="18"
+                id="edad"
+                placeholder="Escriba su edad entre 18 y 99"
+                required
+                style="width: 367px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="descripcion">Telefono:</td>
+            <td class="inputs">
+              <input
+                size="50"
+                type="tel"
+                id="telefono"
+                placeholder="Escriba su telefono"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="descripcion">Consulta:</td>
+            <td class="inputs">
+              <textarea
+                id="consulta"
+                placeholder="Escriba su consulta"
+                cols="50"
+                rows="10"
+                required
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td class="descripcion"></td>
+            <td class="inputs">
+              <input type="checkbox" id="politicaPrivacidad" />He leido y acepto
+              la
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                >politica de privacidad</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button>Enviar</button></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <aside>
+      <h2>NOTICIAS</h2>
+      <h3>Proximos conciertos en Alicante</h3>
+      <ul>
+        <li>
+          <a target="_blank" href="https://salaeuterpe.com/event/raul-abreu/"
+            >Concierto Raúl Abreu</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.entradas.com/artist/revolver/?cityname=Alicante"
+            >Concierto Revolver</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.entradas.com/artist/simple-music-ensemble-world-2/magia-navidena-un-concierto-festivo-3695603/?cityname=Alicante"
+            >Magia Navideña</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.entradas.com/artist/grease-el-musical/"
+            >Grease, el musical</a
+          >
+        </li>
+      </ul>
+    </aside>
+    <footer>
+      <div id="RRSS">
+        <table id="tablaRRSS">
+          <tr>
+            <td>
+              <a href="#"
+                ><img
+                  class="iconos"
+                  src="./assets/images/facebbok.png"
+                  alt="icono facebook"
+                />
+              </a>
+            </td>
+            <td><a href="#">facebook</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"
+                ><img
+                  class="iconos"
+                  src="./assets/images/instagram.png"
+                  alt="icono instagram"
+                />
+              </a>
+            </td>
+            <td><a href="#">instagram</a></td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"
+                ><img
+                  class="iconos" id="whatsapp"
+                  src="./assets/images/whatsapp.png"
+                  alt="icono whatsapp"
+                />
+              </a>
+            </td>
+            <td><a href="#">whatsapp1</a></td>
+          </tr>
+        </table>
+      </div>
+
+      <table id="ubicacion">
+        <tr>
+          <th>Donde estamos</th>
+        </tr>
+        <tr>
+          <td>
+            <iframe
+              id="mapa"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.9824290378187!2d-0.49125377361683686!3d38.34938872885202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd623652da4717b7%3A0x159b39ae44fe172a!2sMercado%2C%20Alicante%20(Alacant)%2C%20Alicante!5e0!3m2!1ses!2ses!4v1730397081344!5m2!1ses!2ses"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </td>
+        </tr>
+        <tr>
+          <td>Avenida Alfonso el Sabio 25, Alicante</td>
+        </tr>
+      </table>
+      <div id="copyright">
+        <p>&amp;copy 2024 MUSICA DIW</p>
+        <br />
+        <p>Política de privacidad y cookies</p>
+      </div>
+    </footer>
+  </body>
+</html>
